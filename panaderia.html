@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Esta página serviría como modelo para las páginas de panadería, bollería y empanadas. Si hacemos las páginas en php, se podrían generar dinámicamente. -->
-<html>
+<!-- <html>
     <head>
         <title>Panadería - Migas Amigas</title>
     </head>
@@ -14,21 +14,60 @@
             <div><a href="panaderia.html">Bollería</a></div>
             <div><a href="panaderia.html">Empanadas</a></div>
             <div><a href="contacto.html">Contacto</a></div>
-        </nav>
+        </nav> -->
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Panadería - Panadería Migas Amigas</title>
+        </head>
+        <body>
+                <header>
+                    <!-- falta el enlace a el mismo ---> 
+                    <a href=""><img src="img/logo.png" width="150" height="150"></a>
+                    <h1>Panadería Migas Amigas</h1>
+                </header>
+                <nav>
+                    <!-- <div><a href="cafeteria.html">Cafetería</a></div>
+                    <div><a href="panaderia.html">Panadería</a></div>
+                    <div><a href="panaderia.html">Bollería</a></div>
+                    <div><a href="panaderia.html">Empanadas</a></div>
+                    <div><a href="contacto.html">Contacto</a></div>  
+                esto no se hace con div -->
+                <ul>
+                    <li><a href="cafeteria.html">Cafetería</a></li>
+                    <li><a href="">Panadería</a></li>
+                    <li><a href="bolleria.html">Bollería</a></li>
+                    <li><a href="Empanadas.html">Empanadas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li><a href="">ES</a></li>
+                        <li><a href="pt/index.html">PT</a></li>
+                    </ul>
+                    
+                </nav>
         <main>
             <section>
-                <artile>
+                <h2>Productos de la panadería</h2>
+                <!-- article no se usa para esto, se usa cuando entre article y article en la misma página no hay relación
+                aquí todos los productos están relacionados por lo tanto usamos div o section-->
+                <section>
+                    <h3>Barra de pan</h3>
                     <a href="producto.html"><img src="img/barrapan.jpg" width="265" height="210"/></a>
                     <a href="producto.html"><div>Barra de pan normal</div></a>
-                </artile>
-                <artile>
+                </section>
+                <section>
+                    <h3>Bola de pan</h3>
                     <a href="producto.html"><img src="img/bolapan.jpg" width="265" height="210"/></a>
                     <a href="producto.html"><div>Bola de pan</div></a>
-                </artile>
-                <artile>
+                </section>
+                <section>
                     <a href="producto.html"><img src="img/bolapan2.jpg" width="265" height="210"/></a>
                     <a href="producto.html"><div>Bola de pan tierno</div></a>
-                </artile>
+                </section>
             </section>
             <aside>
                 <article>
@@ -46,8 +85,15 @@
             </aside>
         </main>
         <footer>
-            <div>Columna de pie 1</div>
-            <div>Columna de pie 2</div>
+            <!-- <div>Columna de pie 1</div>
+            <div>Columna de pie 2</div> -->
+            <address>
+                <p>R/ De Rosaliá de Castro, 33</p>
+                <p>32653. Túi</p>
+                <p>Pontevedra</p>
+            </address>
+            <p><a href="tel:+34982343434">Teléfono: 982 34 34 34</a></p>
+            <p><a href="mailto:contacto@migasamigas.com">contacto@migasamigas.com</a></p>
         </footer>
     </body>
 </html>
